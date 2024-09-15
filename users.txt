@@ -1,0 +1,12 @@
+Naomi:Okkers:ZAR:true
+Joe:Doe:ZAR:false
+SHADY:jeron123:USD:false
+Shady:Shady123:USD:false
+Jeron:Jeron123:USD:false
+Chardene05:okkers::true
+Joseph:Jeron123:USD:false
+John:Jeron123:USD:false
+chardene:shady05:USD:false
+Jeron05:Jeron123:USD:false
+Naomi1:Okkers:ZAR:true
+jERON2007:jeron123:ZAR:true
