@@ -1,100 +1,97 @@
 # Currency Converter - JavaFX Application
 
 ## Table of Contents
-- [Introduction](#introduction)
-- [Features](#features)
-- [Getting Started](#getting-started)
-- [Running the Project](#running-the-project)
-- [User Authentication](#user-authentication)
-- [Converter](#converter)
-- [Dashboard](#dashboard)
-- [History Chart](#history-chart)
-- [Dark Mode](#dark-mode)
+- [Project Description](#project-description)
+- [How to Run the Application](#how-to-run-the-application)
+- [Usage Guide](#usage-guide)
+- [Skills Applied](#skills-applied)
 - [Technologies Used](#technologies-used)
+- [Visuals](#visuals)
+- [Portfolio Integration](#portfolio-integration)
 - [Contributing](#contributing)
 - [License](#license)
 
-## Introduction
-This **Currency Converter** is a JavaFX application that allows users to convert currencies between different exchange rates using real-time data from an API. It features user authentication (sign up/log in), a currency conversion tool, a dashboard displaying user statistics, and a historical chart to visualize past conversions.
+## Project Description
+The **Currency Converter** is a JavaFX-based desktop application that allows users to convert currencies between various exchange rates, offering features like user authentication, conversion history, and a detailed dashboard for user insights. The app supports real-time currency data fetching, enabling users to get up-to-date conversions, and provides a dark mode toggle for UI customization.
 
-## Features
-- User authentication (sign up and log in)
-- Currency conversion with real-time exchange rates
-- Dynamic dashboard displaying total conversions and preferred currency
-- Conversion history visualization via line chart
-- Toggleable dark mode for UI customization
-- API integration to fetch exchange rates
+### Key Features:
+- User sign-up and login functionality.
+- Real-time currency conversion using API.
+- Dashboard with conversion statistics and user data.
+- Conversion history tracking.
+- Dark mode toggle for user interface customization.
 
-## Getting Started
+## How to Run the Application
 
-### Prerequisites
-Before running the project, make sure you have the following installed:
-- [Java Development Kit (JDK) 21](https://www.oracle.com/java/technologies/javase-jdk21-downloads.html)
-- [NetBeans 20](https://netbeans.apache.org/download/)
-- [Git](https://git-scm.com/)
-- Internet connection (for fetching live exchange rates)
+### Prerequisites:
+- **Java Development Kit (JDK) 21**: [Download here](https://www.oracle.com/java/technologies/javase-jdk21-downloads.html)
+- **NetBeans IDE 20**: [Download here](https://netbeans.apache.org/download/)
+- **Git**: [Download here](https://git-scm.com/)
+- An internet connection for real-time data fetching.
 
-### Installation
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/JeronOkkers/currency-converter.git
-    cd currency-converter
-    ```
+### Installation and Setup:
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/yourusername/currency-converter.git
+   cd currency-converter
+2. **Open the Project** in NetBeans or any Java-supporting IDE.
+   - In NetBeans, go to `File > Open Project` and select the cloned folder.
 
-2. Open the project in NetBeans or your preferred IDE.
+3. **Build the Project**:
+   - In NetBeans, right-click the project in the project navigator and select "Clean and Build".
 
-3. Make sure your project is set up with JavaFX and other necessary libraries (refer to the `pom.xml` or build file if needed).
+4. **Run the Application**:
+   - Right-click `CurrencyConverterTest.java` and select "Run File".
 
-## Running the Project
-1. Launch the application from your IDE by running `CurrencyConvertorTest.java`.
-2. Log in or sign up as a new user to access the converter.
-3. Convert currencies, view your history, and use the dashboard to track your statistics.
+5. **Log in or Sign up** to start using the application.
 
-## User Authentication
-- When you first start the application, you’ll be prompted to log in or sign up.
-- Sign up requires you to provide a username, password, preferred currency, and an option to enable dark mode.
-- Log in to access your user data and continue using the converter.
+## Usage Guide
 
-## Converter
-The currency converter allows you to:
-- Enter an amount.
-- Choose the source currency and target currency from dropdowns.
-- View the converted result in real-time.
+1. **Authentication**:
+   - Sign up with a new account by providing your username, password, and preferred currency.
+   - If you have an existing account, log in using your credentials.
 
-## Dashboard
-The dashboard provides statistics for:
-- Total conversions made by the user.
-- The user's preferred currency.
+2. **Currency Conversion**:
+   - Select the currency you want to convert from and to.
+   - Enter the amount to convert, and the app will fetch real-time rates.
+   - Click "Convert" to see the converted amount.
 
-## History Chart
-A line chart shows the history of your conversions, plotting the amounts against the order in which the conversions were made.
+3. **Dashboard**:
+   - View total conversions made, a history of conversions, and statistics on your most used currencies.
 
-## Dark Mode
-You can toggle between light and dark modes using the "Toggle Dark Mode" button. Your preference is saved and applied every time you log in.
+4. **Dark Mode**:
+   - Use the dark mode toggle to switch between light and dark themes for better readability.
+
+## Skills Applied
+- JavaFX for GUI development.
+- API integration for fetching real-time currency data.
+- User authentication and data management.
+- Implementation of design patterns and user interaction logic.
 
 ## Technologies Used
-- **JavaFX** for the user interface.
-- **Google Gson** for JSON parsing.
-- **HTTP API** for fetching live exchange rates.
-- **Swing** for user authentication prompts.
-- **JUnit** (optional) for testing.
+- **Java**: Core language for application logic.
+- **JavaFX**: For building the graphical user interface.
+- **FreeTTS**: For text-to-speech functionality (if applicable).
+- **JLayer**: For handling audio files (if applicable).
+
+## Visuals
+Here are some screenshots of the Currency Converter in action:
+
+1. **Main Interface**:
+   ![Main Interface](path/to/screenshot1.png)
+   
+2. **Conversion History**:
+   ![Conversion History](path/to/screenshot2.png)
+
+## Portfolio Integration
+This project serves as a key piece in my portfolio, showcasing:
+- My ability to design and implement a full-stack Java application.
+- My skills in integrating third-party APIs and libraries.
+- A demonstration of UI/UX design with dark mode support.
+- Real-time data processing and visualization.
 
 ## Contributing
-Contributions are welcome! Please follow these steps to contribute:
-1. Fork the repository.
-2. Create a new branch for your feature or bugfix:
-    ```bash
-    git checkout -b feature-name
-    ```
-3. Make your changes and commit them:
-    ```bash
-    git commit -m "Add new feature"
-    ```
-4. Push your branch to GitHub:
-    ```bash
-    git push origin feature-name
-    ```
-5. Open a pull request with a detailed description of your changes.
+Contributions are welcome! Please fork the repository and submit a pull request.
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
