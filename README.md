@@ -71,8 +71,6 @@ The **Currency Converter** is a JavaFX-based desktop application that allows use
 ## Technologies Used
 - **Java**: Core language for application logic.
 - **JavaFX**: For building the graphical user interface.
-- **FreeTTS**: For text-to-speech functionality (if applicable).
-- **JLayer**: For handling audio files (if applicable).
 
 ## Visuals
 Here are some screenshots of the Currency Converter in action:
